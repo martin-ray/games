@@ -1,0 +1,23 @@
+<style>
+    body {
+        margin:0;
+        background:black;
+    }
+</style>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<div class="fixed text-white text-sm ml-2 ml-2">
+    <span>Score:</span><span id="scoreEl">0</span>
+</div>
+
+<div class="fixed inset-0 flex items-center justify-center" id="modalEl">
+    <div class="bg-white max-w-md w-full p-6 text-center">
+        <h1 class="test-4xl font-bold" id="bigscoreEl">0</h1>
+        <p class="text-sm text-gray-700">Points</p>
+        <button class="bg-blue-500 text-white w-full py-3 rounded-full" id="startbtn">start game</button>
+    </div>
+</div>
+
+<canvas></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://ingenboy.com/game/js/index1.js"></script>
